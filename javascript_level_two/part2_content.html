@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>
+          Let's talk about changing text, html content, and attributes with the
+          DOM
+        </h1>
+
+        <p>
+          To edit styles, we've already seen we can use the .style tag. Now if
+          we want to edit <b>actual html</b> or
+          <a href="https://www.google.com">attributes</a> we can use different methods. If you
+          want to change the text, html content, or attributes you can use
+          the following:
+        </p>
+
+        <ul>
+          <li>myvariable.textContent - This returns just the text</li>
+          <li>myvariable.innerHTML - This returns the actual html</li>
+          <li>myvariable.getAttribute() - This returns the original attribute</li>
+          <li>myvariable.seAttribute() - This allowed you to set an attribute</li>
+        </ul>
+
+        <h3 id="special">I am another <i>header</i> with the special id.
+          <a href="https://www.facebook.com">FACEBOOK LINK</a>
+        </h3>
+      </div>
+    </div>
+  </body>
+</html>

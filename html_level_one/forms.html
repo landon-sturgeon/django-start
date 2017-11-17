@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feeback Form</h1>
+    <form method="get">
+
+      <h2>Are you from inside the US? Or outside the US?</h2>
+
+      <label for="inusa">Inside:</label>
+      <input id="inusa" type="radio" name="location" value="inside">
+
+      <label for="outusa">Outside:</label>
+      <input id="outusa" type="radio" name="location" value="outside">
+
+      <h2>How was your service?</h2>
+
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="Okay">2</option>
+        <option value="Bad">1</option>
+
+      </select>
+
+      <input type="submit" name="" value="Submit">
+
+      <p>Any other feedback you want to give?</p>
+
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>

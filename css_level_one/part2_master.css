@@ -1,0 +1,19 @@
+body {
+  background: gray;
+}
+
+div {
+  background: white;
+  border-color: black;
+  border-width: 2;
+  border-style: groove;
+}
+
+p {
+  color: blue;
+}
+
+span {
+  background: green;
+  color: white;
+}

@@ -1,0 +1,30 @@
+#blue{
+  background-color: #247BA0;
+}
+
+#teal{
+  background-color: #70C1B3;
+}
+
+#green{
+  background-color: #B2DBBF;
+}
+
+#yellow{
+  background-color: #F3FFBD;
+}
+
+#red{
+  background-color: #FF1654;
+}
+
+td{
+  height: 300px;
+  width: 150px;
+  border: 6px solid white;
+}
+
+
+h1{
+  font-family: 'Permanent Marker';
+}
